@@ -1,4 +1,4 @@
-package com.codedecode.KafkaDemo.service;
+package com.vaibhav.KafkaDemo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -11,7 +11,7 @@ public class KafkaProducer {
 	private KafkaTemplate<String, String> kafkaTemplate;
 
 	public void sendMessageToTopic(String message) {
-		kafkaTemplate.send("CodeDecodeTopic", message);
+		kafkaTemplate.send("VaibhavTopic", message);
 	}
 
 }

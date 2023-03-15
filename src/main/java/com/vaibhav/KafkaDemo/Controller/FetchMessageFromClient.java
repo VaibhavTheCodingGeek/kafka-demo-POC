@@ -1,4 +1,4 @@
-package com.codedecode.KafkaDemo.Controller;
+package com.vaibhav.KafkaDemo.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.codedecode.KafkaDemo.service.KafkaProducer;
+import com.vaibhav.KafkaDemo.service.KafkaProducer;
 
 @RestController
 @RequestMapping("/rest/api")
