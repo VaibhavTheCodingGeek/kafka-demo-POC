@@ -1,5 +1,9 @@
 # kafka-demo-POC
 
+download kafka
+
+https://kafka.apache.org/downloads.html
+
 Commands to start Zookeeper and Kafka :
 
 go to the folder where you have extracted the kafka folder
